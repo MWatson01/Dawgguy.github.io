@@ -1,0 +1,147 @@
+/*
+    NOTE TO STUDENTS: 
+ 
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style: ridge;
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+    border-color: red;
+}
+
+.blue{
+    background-color: blue;
+    border-color: blue;
+}
+
+.purple{
+    background-color: purple;
+    border-color: purple;
+}
+
+.gold{
+    background-color: gold;
+    border-color: gold;
+}
+
+.pink{
+    background-color: pink;
+    border-color: pink;
+}
+
+.skyblue{
+    background-color: skyblue;
+    border-color: skyblue;
+}
+
+.brown{
+    background-color: brown;
+    border-color: brown;
+}
+
+.green{
+    background-color: green;
+    border-color: green;
+}
+
+.violet{
+    background-color: violet;
+    border-color: violet;
+}
+
+.teal{
+    background-color: teal;
+    border-color: teal;
+}
+
+.darkgreen{
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.crimson{
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.white{
+    background-color: white;
+    border-color: white;
+}
+
+.gray{
+    background-color: gray;
+    border-color: gray;
+}
+
+.yellow{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.yellowgreen{
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+}
+
+.darkblue{
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.darkred{
+    background-color: darkred;
+    border-color: darkred;
+}
+
+.aqua{
+    background-color: aqua;
+    border-color: aqua;
+}
+.blueviolet{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.black{
+    background-color: black;
+    border-color: black;
+}
+.firebrick{
+    background-color: firebrick;
+    border-color: firebrick;
+}
+
+.mintcream{
+    background-color: mintcream;
+    border-color: mintcream;
+}
+
+.olive{
+    background-color: olive;
+    border-color: olive;
+}
+
+.deeppink{
+    background-color: deeppink;
+    border-color: deeppink;
+}
+
+.sandybrown{
+    background-color: sandybrown;
+    border-color: sandybrown;
+}
+
+.seagreen{
+    background-color: seagreen;
+    border-color: seagreen;
+}
