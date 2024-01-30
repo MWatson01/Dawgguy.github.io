@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -6,46 +7,111 @@
 
     Good luck, and have fun!
 */
-#id-and-expiration{
-    border: 2px solid red;
-    display: inline-block;
-    width: 20%;
-}
-#id-and-expiration div{
-    border: 2px solid green;
-}
-#address{
-    border: 2px solid blue;
-    display: inline-block
-}
-#personal-info{
-    border: 2px solid black;
-}
-#small-pic{
-    border: 2px solid blue;
-    display:inline-block;
-}
-#data-fields{
-    border: 2px solid red;
-    display: inline-block;
-}
-#data-left, #data-right, #signiture{
-    border: solid black;
-}
-#data-left, #data-right{
-    display: inline-block;
-}
-#donor-and-real-id{
-    border:2px solid red;
-    color:red;
-    font-weight:bold
-}
 #license{
-    border: 2px solid blue ;
+    width: 700px;
+    border: 2px solid black;
+    padding: 24px;
+    background: linear-gradient(55deg, lavenderblush, lavender,lightpink,
+    pink, lightcoral, coral );
+    border-radius: 24px;
+    box-shadow: 8px 4px 6px #0006;
 }
+
+h1{
+    color: navy;
+    font-size: 60px;
+    margin: 0px;
+}
+
+h4{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 0px;
+    padding: 8px;
+}
+
+#left-side,
+#right-side{
+    display: inline-block;
+}
+
 #left-side{
-    color: blue
+    
+    width: 65%;
 }
-#content{
-    color: blue;
+#right-side{
+    
+    width: 34%;
+}
+
+#id-and-expiration div{
+    display: inline-block;
+    color: navy;
+    margin: 8px;
+}
+
+#id-and-expiration span{
+    color: red;
+    font-weight: bold;
+}
+
+#address{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 9px;
+}
+
+#data-fields, #small-pic{
+    display: inline-block;
+}
+
+#small-pic img{
+    width: 90px;
+    opacity: 0.5;
+}
+
+#data-left, #data-right {
+    display: inline-block;
+    color: navy;
+    margin: 8px;
+}
+
+#data-left span, #data-right span{
+    color: red;
+    font-weight: bold;
+}
+
+#signature{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Ms Madi', cursive;
+}
+
+#right-side img{
+    width: 100%;
+}
+
+#donor, #real-id{
+    display: inline-block;
+}
+
+#donor{
+    color: red;
+    font-weight: bold;
+    padding-right: 24px;
+}
+#real-id{
+    display: inline-block;
+    background-color: gold;
+    font-size: 24px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+#real-id i{
+    color: white;
 }
