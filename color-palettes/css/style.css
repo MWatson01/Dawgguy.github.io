@@ -21,3 +21,45 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#st{
+    text-align: center;
+    font-style: italic;
+    padding: 24px;
+}
+
+#st-1{
+    background-color: #923a44;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+}
+
+#st-2{
+    background-color: #c24791;
+    text-align: center;
+}
+
+#st-3{
+    background-color: #643f5d;
+    text-align: center;
+}
+
+#ht-1{
+    background-color: #d08a92;
+    text-align: center;
+}
+
+#ht-2{
+    background-color: #d175ac;
+    text-align: center;
+}
+
+#ht-3{
+    background-color: #2f0f22;
+    text-align: center;
+}
+
+#ht{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
