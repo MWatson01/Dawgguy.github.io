@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sidebar-content{
+    order: 2;
+    grid-area: sidebar;
+    padding: 18px;
+}
+
+#sidebar-content ul{
+    border: 1px solid orangered;
+    background-color: black;
+}
+
+#sidebar-content a{
+
+}
