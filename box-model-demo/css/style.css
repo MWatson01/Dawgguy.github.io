@@ -1,0 +1,11 @@
+div{
+    border: 10px ridge coral;
+    margin: 24px;
+    background-color: grey;
+}
+p{
+    border: 20px dashed blue;
+    margin:24px;
+    padding: 48px 60px;
+    background-color: cadetblue;   
+}
