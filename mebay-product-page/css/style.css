@@ -31,7 +31,7 @@ body {
         secondary content.
     */
     display: grid;
-    grid-template-columns: 1fr 400px 200px 200px 1fr;
+    grid-template-columns: 1fr 800px 600px 600px 1fr;
     grid-template-areas: 
         ". column-area-1 column-area-2 column-area-3 .";
 }
@@ -102,7 +102,7 @@ body {
 }
 
 #sidebar ul{
-    display: flex
+    display: flex;
 }
 
 #header{
@@ -113,4 +113,47 @@ body {
 
 .titleimage{
  display: flex;
+}
+
+.buy{
+    background-color: blue;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+
+.add{
+    background-color:aqua;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+
+.watch{
+    text-align: center;
+    color: blue;
+    border: 5px solid blue;
+    border-radius: 12px;
+}
+
+.shop{
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+.seller{
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+#prices{
+    display: flex;
+    align-items: center;
+}
+#prices p{
+    margin-bottom: 10px;
+}
+
+.buy{
+    border-radius: 12px;
+    border: 1px solid black;
 }
