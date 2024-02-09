@@ -35,3 +35,15 @@
 .header{
 display: flex
 }
+
+.profile-pic-container{
+    text-align: center;
+}
+
+.animagram-header{
+    text-align: center;
+}
+
+.card-style-2 h2{
+    text-align: center;
+}
