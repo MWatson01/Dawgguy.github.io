@@ -1,0 +1,32 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+*{
+    box-sizing: border-box;
+}
+
+.card-style-3{
+    font-size: 20px;
+    
+    
+
+}
+
+.description{
+
+}
+
+.health{
+
+}
+
+.pokemon-header{
+ 
+}
+
