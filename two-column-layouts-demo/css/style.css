@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas: "content sidebar";
+}
+
+#sidebar-content{
+    background-color: grey;
+    grid-area: sidebar;
+    padding: 18px;
+}
+
+#main-content{
+    background-color: greenyellow;
+    grid-area: content;
+}
+
+#sidebar-content h2{
+    background-color: orangered;
+}
+
+#sidebar-content ul{
+    color: azure;
+}
+#sidebar-content a{
+    color: cyan;
+    text-decoration: none;
+}
