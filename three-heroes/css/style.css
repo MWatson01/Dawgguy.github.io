@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+#hero-1{
+    background-image: url(../images/stress.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+#hero-1 h2{
+    font-size: 10vw;
+    padding: 10px;
+    color: crimson;
+}
+
+#hero-1 h4{
+    font-size: 15px;
+    color: crimson;
+}
+
+#hero-1 a{
+    display: flex;
+    background-color: aquamarine;
+    margin: 5vh 5vw 10vh 0px;
+    font-size: 2.4vw;
+    text-decoration: none;
+}
+
+#hero-2{
+    background-image: url(../images/beach.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero-2 a {
+    display: inline-block;
+    background-color: aqua;
+    margin: 5vh 5vw 10vh 0px;
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+#hero-3{
+    background-image: url(../images/yoga.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero-3 a{
+    display: flex;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 5vh 5vw 10vh 0px;
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+#hero-3 h2{
+    text-align: center;
+    color: #4d68;
+}
+#hero-3 h4{
+    text-align: center;
+    color: #4d68;
+}
