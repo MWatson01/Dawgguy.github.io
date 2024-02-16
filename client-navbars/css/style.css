@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.content-column{
+    width: 800px;
+    margin: 0px;
+}
+
+#navbar-top{
+    background: linear-gradient(to bottom, grey,#644);
+}
+
+#navbar-top .content-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-mid{
+    background-color: red;
+}
