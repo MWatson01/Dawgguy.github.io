@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h4{
+    text-align: center;
+    background-color: blue;
+}
+h1{
+    text-align: center;
+  background: linear-gradient(to bottom, #fb8500, #023047);
+}
+h2{
+    text-align: center;
+    background-color: purple;
+}
+
+#flex-side-by-side{
+    background-color: #023047;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-auto-rows: 150px;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.image-container{
+    height: 400px;
+}
+
