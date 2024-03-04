@@ -15,11 +15,14 @@ body{
 
 h1{
     color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: ;
 }
 
 #navbar a{
     color: green;
     padding: 24px;
+    margin-right: auto;
 }
 
 #navbar .cta-button{
@@ -35,7 +38,7 @@ h1{
 #flex-side-by-side{
     width: 80vw;
     max-width: 800px;
-    margin: 40px auto;
+    margin: 40px auto ;
     display: flex;
     align-items: center;
     gap: 50px;
@@ -52,14 +55,17 @@ h2{
 }
 
 img{
-    width: 100%;
+    width: 70%;
     object-fit: cover;
     border-radius: 24px;
+    margin-right: auto;
+    object-position: center;
+    box-sizing: border-box;
 }
 
 h2{
     text-align: center;
-    font-size: medium;
+    font-size: x-large;
 }
 
 .image-container2{
@@ -69,4 +75,29 @@ h2{
 p{
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+}
+
+#hero-5{
+    background-image: url(../images/vw.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#footer{
+    background: linear-gradient(to bottom, black, black);
+    color: green;
+    padding: 12px;
+}
+
+#footer a{
+    color: green;
+}
+#footer-navbar{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }
